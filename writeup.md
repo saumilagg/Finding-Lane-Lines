@@ -16,8 +16,9 @@ The goals / steps of this project are the following:
 
 [image4]:./test_images_output/houghTransform.png "HoughTransform"
 
+[image5]:./test_images_output/solidYellowCurve2.1.png "solidYellowCurve"
 
-
+[image6]:./test_images_output/solidWhiteRight2.png "solidWhiteRight2"
 ---
 
 ### Reflection
@@ -50,6 +51,15 @@ In-order to draw solid lines on the image I modified the draw_lines function. My
 the form y = mx + b; by plotting my region of selection. This gave me an idea of slope and points lying on/above/below the line. Now I kept this slope(m) from
 original line equation  as an initial start value for averaging slope. So for any new points x1,y1,x2,y2 on the line, I calculate the slope and keep it in the
 range delta (which is my case is 0.85). The final line is drawn after iterating through these points and selecting the best possible combination.
+
+Note: For final image results after changing the draw lines function look for ./test_images_output/filename2.png. where "filename" is the image name with a "2" 
+as suffix. 
+
+Some of the final results look like this: 
+
+![alt text][image5]
+
+![alt text][image6]
  
 ###2. Identify potential shortcomings with your current pipeline
 
