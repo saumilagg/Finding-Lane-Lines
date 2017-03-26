@@ -19,6 +19,7 @@ The goals / steps of this project are the following:
 [image5]:./test_images_output/solidYellowCurve2.1.png "solidYellowCurve"
 
 [image6]:./test_images_output/solidWhiteRight2.png "solidWhiteRight2"
+
 ---
 
 ### Reflection
